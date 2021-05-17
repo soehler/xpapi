@@ -2,7 +2,7 @@ var express = require("express");
 var cors = require('cors')
 var app = express();
 
-const whitelist = ['http://localhost', 'http://hspw.org']
+const whitelist = ['http://localhost', 'https://hspw.org']
 const corsOptions = {
   origin: function (origin, callback) {
     if (whitelist.indexOf(origin) !== -1) {
