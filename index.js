@@ -17,7 +17,7 @@ app.get("/users",cors(), (req, res, next) => {
     res.json({"users":["Joao","Maria","Jose","Renata","Augusto"]});
    });
 
-app.listen(3001, () => {
- console.log("XPAPI Server running on port 3001");
+app.listen(3000, () => {
+ console.log("XPAPI Server running on port 3000");
 });
 
